@@ -12,7 +12,7 @@ req = urllib.request.urlopen('https://feeds.bbci.co.uk/sport/football/rss.xml')
 
 xml = BeautifulSoup(req, 'xml') #Need to specify xml data - ensure lxml is installed via pip
 
-for item in xml.findAll('link')[3:4]: #[3:5] Ignores first 3 links :5 limits to top link i.e 5-3 = 2 links
+for item in xml.findAll('link')[3:5]: #[3:5] Ignores first 3 links :5 limits to top link i.e 5-3 = 2 links
     print(item.text)
     url = item.text
     news = urllib.request.urlopen(url).read()
