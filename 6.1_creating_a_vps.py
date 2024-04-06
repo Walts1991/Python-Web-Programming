@@ -1,4 +1,3 @@
-#
 '''
 VPS = Virtual Private Server
 Easier to expand / contract as required - External host from local
@@ -14,5 +13,4 @@ Backups highly recommended - additional 20% to monthly cost
 
 Example - Py-Web-Prog_ec4u
 *****C****
-
 '''
