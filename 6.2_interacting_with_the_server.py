@@ -28,5 +28,6 @@ pip install beautifulsoup4 - install beautiful soup 4
 python - set language
 import bs4 - import beautiful soup
 sudo apt-get install python3-pip for python 3
+Right click header bar to duplicate session if required
 ctrl d - Escape / Exit
 '''
