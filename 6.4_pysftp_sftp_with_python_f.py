@@ -18,7 +18,7 @@ def push_file_to_server():
     cnopts.hostkeys = None
 
     # Connect to the server
-    s = sftp.Connection(host='167.99.43.15', username='root', password='elm86Court', cnopts=cnopts)
+    s = sftp.Connection(host='167.99.43.15', username='root', password='elm86Court', port=22, cnopts=cnopts)
 
     local_path = "testme.txt"
     remote_path = "/home/testme.txt"
@@ -35,7 +35,7 @@ def get_file_from_server():
     cnopts.hostkeys = None
 
     # Connect to the server
-    s = sftp.Connection(host='167.99.43.15', username='root', password='elm86Court', cnopts=cnopts)
+    s = sftp.Connection(host='167.99.43.15', username='root', password='elm86Court', port=22, cnopts=cnopts)
 
     local_path = "testme.txt"
     remote_path = "/home/testme.txt"
