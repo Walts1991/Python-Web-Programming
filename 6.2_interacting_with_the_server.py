@@ -24,6 +24,7 @@ sudo apt-get install python-pip - install pip to install packages
 sudo apt-get install python3-pip for python 3
 sudo apt-get update - update server
 Can use up arrow to reference previous commands
+sudo apt install python3-bs4
 pip install beautifulsoup4 - install beautiful soup 4
 python - set language
 import bs4 - import beautiful soup

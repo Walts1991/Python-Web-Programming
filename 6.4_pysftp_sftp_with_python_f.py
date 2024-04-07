@@ -4,9 +4,9 @@ Modules are used
 Python has ftplib module - FTP may be disabled as not secured
 SFTP / SCP is preferred method
 Python requires 3 modules - install using command prompt / server:
-pip install pycrypto
-pip install paramiko
-pip install pysftp
+pip install pycrypto - sudo apt install pycrypto if on server (not virtual environment)
+pip install paramiko - sudo apt install paramiko if on server (not virtual environment)
+pip install pysftp - sudo apt install pysftp if on server (not virtual environment - did not work - install within VS Code)
 Within python script:
 '''
 
