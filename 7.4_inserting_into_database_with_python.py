@@ -31,7 +31,7 @@ req = urllib.request.urlopen('https://feeds.bbci.co.uk/sport/football/rss.xml')
 
 xml = BeautifulSoup(req, 'xml')
 
-c, conn = connection()
+conn, c = connection()
 
 for item in xml.findAll('link')[3:]:
     url = item.text

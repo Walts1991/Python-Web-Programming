@@ -33,5 +33,5 @@ def connection():
     return conn,c
 
 if __name__ == '__main__':
-    c, conn = connection()
+    conn, c = connection()
     print("It worked!")
