@@ -10,6 +10,8 @@ or python3 -m pip install mysqlclient
 or python -m pip install PyMySQL - different package
 
 May need to create virtual environment - see Bard/Gemini chat history 07/04/2024
+source test/bin/activate  # Replace "test" with your environment's name
+
 
 Within python interpreter:
 import MySQLdb - care which capitalisation
@@ -19,12 +21,14 @@ Issue connection and cursor to database
 Import file to be used across multiple scripts
 
 nano dbconnect.py - if in console
+
+import dbconnect to use script in other files
 '''
 
 import MySQLdb
 
 def connection():
-    conn = MySQLdb,connect(host='localhost',user='root',passwd='',db='Test')
+    conn = MySQLdb.connect(host='localhost',user='root',passwd='',db='Test')
     c = conn.cursor()
     return conn,c
 
