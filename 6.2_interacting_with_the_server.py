@@ -9,7 +9,7 @@ Can save sessions for future reference
 Save fingerprint as warning
 Login details to Server
 Username = root
-Password = *****C****
+Password = ********** - Changed to SSH key
 Password characters not shown
 cd - change directory
 cd / - main directory

@@ -6,7 +6,7 @@ WinSCP -  A free SFTP client for Windows
 FileZilla - FTP or SFTP client for all operating system
 Host = IP address
 Username = Root
-Password = *****C****
+Password = ********** - Changed to SSH key
 Port = 22 (SFTP) / 21 (FTP)
 Quickconnect to server
 Can add directories/files within directory

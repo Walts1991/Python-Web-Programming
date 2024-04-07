@@ -12,5 +12,5 @@ Create droplet - Select requirements (cheapest) / select location / Ubuntu opera
 Backups highly recommended - additional 20% to monthly cost
 
 Example - Py-Web-Prog_ec4u
-*****C****
+********** - Changed to SSH key
 '''
