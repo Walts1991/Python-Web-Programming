@@ -5,10 +5,11 @@ If using for loop:
 for _ in range(5): #Underscore denotes worthlessness of a variable (non-variable)
 If while loop - infinite loop
 while true:
+to run - go to python environment python3 insertion3.py
 Using the above the script will only run whilst user e.g. root is logged in
 To run script in the background:
 Use nohup - no hang up
-nohup python insertion2.py &
+nohup python insertion3.py & - need to include & and click enter to be able to type again
 Run - make sure sleeps are included in file to allow breaks in running script
 Outputs to temporary nohup.out file
 top - in terminal is similar to task manager

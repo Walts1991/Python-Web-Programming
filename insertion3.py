@@ -25,13 +25,12 @@ def parse_links():
             conn.commit()
             print("Found a new link!")
         else:
-            #print(rows)
+            print(rows)
             print("Link already in database")
             
         time.sleep(10)
 
     conn.close()
 
-for True:
-    
+while True:
     parse_links()
