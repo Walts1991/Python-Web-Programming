@@ -29,6 +29,16 @@ Example button dropdown:
 
 Note some features may have dependencies such as plugins
 
-Resume at 6 minutes
+Need to add Javascript:
+Javascript usually added below section that uses it e.g. after <body> tags
+<script src="//code.jquery.com/jquery-1.11.1.min.js"</script>
+<script src="{{ url_for('static', filename='js/bootstrap.min.js') }}.min.js"</script>
+jquery is used frequently in javascript
+Bootstrap bundle is often used nowadays as per Gemini:
+<script src="{{ url_for('static', filename='js/bootstrap.bundle.min.js') }}"></script>
 
+Add Nav Bar from Bootstrap componants
+Can rename labels
+Do not rename id's, class and types as these are built into bootstrap
+Would require further changes
 '''
